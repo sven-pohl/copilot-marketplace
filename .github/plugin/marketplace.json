@@ -1,0 +1,23 @@
+{
+  "name": "copilot-marketplace",
+  "metadata": {
+    "description": "GitHub Copilot Copilot Marketplace Example",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "owner": {
+    "name": "Sven Pohl (ext)",
+    "email": "sven.pohl.ext@siemens-healthineers.com"
+  },
+  "plugins": [
+    {
+      "name": "typescript-style",
+      "source": "typescript-style",
+      "description": "Practical skill for Angular + TypeScript linting, rule triage, and safe fixes using Angular ESLint, TypeScript ESLint, and Syngo presets.",
+      "version": "1.0.0",
+      "skills": [
+        "./skills/typescript-style"
+      ]
+    }
+  ]
+}
