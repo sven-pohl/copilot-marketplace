@@ -3,7 +3,7 @@
 ## Installation
 ```bash
 # Using Copilot CLI
-copilot plugin install xxx
+copilot plugin install typescript-style@copilot-marketplace
 ```
 
 ## Source
